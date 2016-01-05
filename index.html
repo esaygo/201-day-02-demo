@@ -3,7 +3,21 @@
   </head>
 
   <body>
-    
+    <h1>I am gonna ask you a question</h1>
+
+    <script>
+      var user = prompt ('What is your name?');
+      alert ('Hi there, ' + user + ' I am gonna ask you a question');
+      console.log('The user\'s name is: ' + user);
+      var answer1 = prompt(user + ', this is a yes/no question, please answer with Y or N. Does Sam have 4 cats');
+      console.log('The user answered question1 with ' + answer1);
+      if ( answer1 === 'N'){
+        alert('You are correct');
+      }
+      else {
+        alert('You are wrong');
+      }
+    </script>
 
   </body>
 
